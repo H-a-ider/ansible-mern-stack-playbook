@@ -1,6 +1,6 @@
 ---
 - name: Deploy MERN Stack
-  hosts: mern-stack
+  hosts: localhost
   become: yes
   gather_facts: yes
 
