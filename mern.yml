@@ -68,7 +68,7 @@
     - name: Run npm install (Frontend)
       command: sudo npm install
       args:
-        chdir: /home/ubuntu/mern-stack/frontend
+        chdir: /home/ubuntu/mern-stack/frontend 
 
     - name: Build the frontend
       command: sudo npm run build
