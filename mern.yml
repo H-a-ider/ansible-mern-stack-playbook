@@ -45,7 +45,7 @@
 
     - name: Clone your MERN stack repository if it doesn't exist
       git:
-        repo: https://github.com/fsojitra/Registration-Login-and-CRUD-Action-using-MERN-stack.git
+        repo: https://github.com/Zeeshan1920/my-test-project
         dest: /home/ubuntu/mern-stack
       when: not repo_exists.stat.exists
 
